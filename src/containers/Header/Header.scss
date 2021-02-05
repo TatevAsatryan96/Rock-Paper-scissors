@@ -1,0 +1,38 @@
+header {
+  max-width: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+  border: 3px solid #606e85;
+  border-radius: 0.4rem;
+  width: 100%;
+  text-transform: uppercase;
+
+  .app-header_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 30px;
+    font-size: 35px;
+    color: #fff;
+  }
+
+  .scoreBox {
+    background-color: #fff;
+    padding: 25px 35px;
+    border-radius: 4px;
+
+    .scoreBox_title {
+      color: #2a46c0;
+      font-weight: 600;
+    }
+
+    .scoreBox-score {
+      color: #606e85;
+      font-weight: 700;
+      font-size: 38px;
+    }
+  }
+}

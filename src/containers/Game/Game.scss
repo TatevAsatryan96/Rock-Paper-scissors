@@ -1,0 +1,50 @@
+.game-option {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 50%;
+  border: 18px solid;
+  margin-top: 50px;
+
+  &:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  &__icon-container {
+    border-radius: 50%;
+  }
+}
+
+.app-game__winnerText {
+  border: 3px solid #606e85;
+  border-radius: 6px;
+  color: black;
+  text-transform: uppercase;
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 6px 20px;
+  background-color: sandybrown;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.app-game__timer {
+  color: black;
+  font-size: 30px;
+  border: 3px solid;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 18px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  background-color: white;
+  margin-left: 40px;
+}

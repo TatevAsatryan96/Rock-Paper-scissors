@@ -1,0 +1,20 @@
+footer {
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 15px;
+
+  p {
+    color: #97a2b4;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .app-footer_btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
